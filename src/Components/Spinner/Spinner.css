@@ -1,0 +1,31 @@
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(359deg);
+    }
+}
+.spin-icon-background {
+  z-index: 11;
+  margin-left: 0px;
+  right: 0;
+  top: 200px;
+  background: #fff;
+  border: #ccc 1px solid;
+  box-shadow: #ccc 0 0 2px;
+  border-right: 0;
+  font-size: 18px;
+  display: block;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 4px;
+  padding: 10px 16px 10px 14px;
+  cursor: pointer;
+  position: fixed;
+}
+
+.spin-icon {
+    animation: spinner 1s infinite linear;
+    font-size: 1.5rem;
+}

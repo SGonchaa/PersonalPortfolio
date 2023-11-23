@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  background-color: var(--backgroundcolor);
+  width: 100%;
+  height: 100%;
+}
+
+.about-container {
+  text-align: center !important;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.about-title {
+  padding: 50px 0 45px;
+  position: relative;
+}
+
+.center-text {
+  font-size: 3.438rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.center-text span {
+  color: var(--primarycolor);
+}
+
+.text-subtitle::before {
+  content: "";
+  background-color: var(--primarycolor);
+  position: absolute;
+  height: 2px;
+  right: -50px;
+  top: 11px;
+  width: 30px;
+}
+
+.text-subtitle {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 15px 0 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.text-subtitle::after {
+  content: "";
+  background-color: var(--primarycolor);
+  position: absolute;
+  height: 2px;
+  left: -50px;
+  top: 11px;
+  width: 30px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-img-part {
+  width: 570px;
+}
+
+.image {
+  position: relative;
+  display: block;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.image img {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+}
+
+.image::before {
+  display: inline-block;
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+  z-index: 0;
+  border: 5px solid var(--primarycolor);
+}
+
+.about-img {
+  width: 440px;
+  height: 440px;
+}
+
+.container-text-btn-part {
+  width: 570px;
+  height: 320px;
+  margin: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text p {
+  font-size: 1rem;
+  margin: 35px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.text span {
+  font-weight: normal;
+  margin-left: 15px;
+}
+
+.btn {
+  text-align: left;
+}
+
+.download-cv {
+  width: 238px;
+  height: 45px;
+  background-color: var(--primarycolor);
+  color: white;
+  border-radius: 25px;
+  box-shadow: none !important;
+  outline: none !important;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  border: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.download-cv:hover {
+  background-color: var(--hovercolor);
+}
+
+.line {
+  margin-top: 150px;
+}
+
+hr {
+  height: 1px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-line {
+  position: relative;
+}
+
+.blue-line::before {
+  display: block;
+  position: absolute;
+  left: -7.5px;
+  top: -14px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--primarycolor);
+  border-radius: 50%;
+  background-color: var(--backgroundcolor);
+}
+
+.resume-container h2 {
+  color: white;
+  font: 1.438rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 30px;
+}
+
+.experience {
+  width: 50%;
+}
+
+.resume-info {
+  width: 501px;
+  height: 122px;
+  margin: 30px;
+}
+
+.blue-line {
+  height: 172px;
+  width: 1px;
+  background-color: var(--primarycolor);
+}
+
+.bold-p {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.duration {
+  color: white;
+  font-size: 1rem;
+}
+
+.duration span {
+  margin-left: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.resume-header p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.resume-info p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+}
+
+.education {
+  width: 50%;
+}
+
+.symbol {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.skills-container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.skills-container h2 {
+  margin: 20px;
+  color: white;
+  font-size: 1.438rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.all-skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-bar p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.ant-progress-text {
+  color: var(--primarycolor) !important;
+}
